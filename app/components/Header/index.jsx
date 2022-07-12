@@ -1,7 +1,10 @@
 import Logo from "~/assets/images/logo.png";
 export function Header() {
   return (
-    <header className="w-full max-w-[1600px] bg-[#FBF7ED] h-20 m-auto flex items-center justify-between px-[98px] fixed top-0 right-1/2 translate-x-1/2">
+    <header
+      id="headerTop"
+      className="w-full z-10 max-w-[1600px] bg-[#FBF7ED] h-20 m-auto flex items-center justify-between px-[98px] fixed top-0 right-1/2 translate-x-1/2"
+    >
       <div className="flex items-center space-x-8">
         <img src={Logo} alt="" />
         <nav>
