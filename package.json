@@ -10,12 +10,15 @@
     "generate:css": "npx tailwindcss -o ./app/tailwind.css",
     "dev:node": "cross-env NODE_ENV=development nodemon ./server.js --watch ./server.js",
     "dev:remix": "remix watch",
-    "start": "cross-env NODE_ENV=production node ./server.js"
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@remix-run/express": "^1.6.1",
     "@remix-run/node": "^1.6.1",
     "@remix-run/react": "^1.6.1",
+    "@storybook/addon-postcss": "^3.0.0-alpha.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "express": "^4.18.1",
@@ -25,8 +28,18 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.9",
     "@remix-run/dev": "^1.6.1",
     "@remix-run/eslint-config": "^1.6.1",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
     "eslint": "^8.15.0",
     "nodemon": "^1.19.4",
     "npm-run-all": "^4.1.5",

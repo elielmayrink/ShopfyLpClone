@@ -2,7 +2,7 @@ import { ArrowRight, Play } from "phosphor-react";
 import globo from "~/assets/images/globo.png";
 export function TheWord() {
   return (
-    <section className="w-full max-w-[1600px] m-auto px-44">
+    <section className="w-full max-w-[1600px] mb-10 m-auto px-44">
       <div>
         <h2 className="text-3xl left-10 text-[#212326] max-w-[714px] mb-7">
           Capacitamos empreendedoras e empreendedores dos quatro cantos do mundo
@@ -21,7 +21,7 @@ export function TheWord() {
         </a>
       </div>
       <div className="relative">
-        <img className="m-auto mt-28" src={globo} alt="" />
+        <img className="m-auto mt-28 mb-10" src={globo} alt="" />
         <button className="absolute bottom-4 left-32">
           <Play color="#028060" weight="bold" size={30} />
         </button>
