@@ -1,6 +1,7 @@
 import { Benefits } from "../components/Benefits";
 import { BusinessOnTheWeb } from "../components/BusinessOnTheWeb";
 import { Hero } from "../components/Hero";
+import { TheWord } from "../components/TheWord";
 
 export default function Index() {
   return (
@@ -8,6 +9,7 @@ export default function Index() {
       <Hero />
       <BusinessOnTheWeb />
       <Benefits />
+      <TheWord />
     </>
   );
 }

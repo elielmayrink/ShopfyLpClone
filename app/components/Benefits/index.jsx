@@ -77,7 +77,7 @@ export function Benefits() {
       </div>
       <div className="flex items-center gap-x-[90px] mt-8">
         <div>
-          <img src={balanco} alt="" />
+          <img className="shadow-lg" src={balanco} alt="" />
         </div>
         <div>
           <h3 className="text-3xl max-w-[414px] leading-10 text-[#212326] mb-5">
