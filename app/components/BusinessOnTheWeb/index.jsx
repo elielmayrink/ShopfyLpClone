@@ -5,6 +5,7 @@ import {
   HouseLine,
   ArrowRight,
 } from "phosphor-react";
+import { ShopifyLink } from "../ShopifyLink";
 export function BusinessOnTheWeb() {
   const shops = [
     {
@@ -78,15 +79,10 @@ export function BusinessOnTheWeb() {
                 ajudar você a encontrar clientes, alavancar vendas e gerenciar a
                 rotina da sua empresa.
               </p>
-              <a
-                href="#"
-                className="flex items-center space-x-1 hover:scale-105 transition"
-              >
-                <span className="text-base text-white font-bold">
-                  Conheça mais exemplos
-                </span>
-                <ArrowRight color="#FFFFFF" weight="bold" />
-              </a>
+              <ShopifyLink
+                label="Conheça mais exemplos"
+                textColor="text-white"
+              />
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@ import device from "~/assets/images/device.png";
 import balanco from "~/assets/images/balanco.png";
 import webApp from "~/assets/images/webApp.png";
 import { ArrowRight } from "phosphor-react";
+import { ShopifyLink } from "../ShopifyLink";
 
 export function Benefits() {
   return (
@@ -39,13 +40,7 @@ export function Benefits() {
             numquam iusto non corrupti? Odit tempora explicabo inventore omnis,
             aliquid alias consequatur.
           </p>
-          <a
-            className="text-lg text-[#008060] font-bold flex items-center space-x-2 hover:space-x-3 transition-all"
-            href="#"
-          >
-            <span>Explore as formas de vender</span>
-            <ArrowRight className="mt-1" weight="bold" />
-          </a>
+          <ShopifyLink label="Explore as formas de vender" textSize="text-lg" />
         </div>
       </div>
       <div className="flex mt-12">
@@ -59,13 +54,10 @@ export function Benefits() {
             commodi unde pariatur eaque harum velit praesentium porro aut nemo
             ipsam minus!
           </p>
-          <a
-            className="text-lg text-[#008060] font-bold flex items-center space-x-2 hover:space-x-3 transition-all"
-            href="#"
-          >
-            <span>Descubra como divulgar a sua marca</span>
-            <ArrowRight className="mt-1" weight="bold" />
-          </a>
+          <ShopifyLink
+            label="Descubra como divulgar a sua marca"
+            textSize="text-lg"
+          />
         </div>
         <div>
           <img
@@ -89,13 +81,10 @@ export function Benefits() {
             suscipit quisquam aut, non eum dicta nisi asperiores perspiciatis
             libero ex veritatis!
           </p>
-          <a
-            className="text-lg text-[#008060] font-bold flex items-center space-x-2 hover:space-x-3 transition-all"
-            href="#"
-          >
-            <span>Descubra como gerenciar o seu negócio</span>
-            <ArrowRight className="mt-1" weight="bold" />
-          </a>
+          <ShopifyLink
+            label="Descubra como gerenciar o seu negócio"
+            textSize="text-lg"
+          />
         </div>
       </div>
     </section>
