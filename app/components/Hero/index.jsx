@@ -1,3 +1,5 @@
+import { ShopifyButton } from "../ShopifyButton";
+
 export function Hero() {
   return (
     <section className="w-full max-w-[1600px] m-auto bg-[#FBF7ED] flex items-center pl-[98px] mt-20">
@@ -10,15 +12,13 @@ export function Hero() {
             E-mail
           </label>
           <input
-            className="border w-[405px] h-[51px] p-5 border-[#6C7177] rounded-[4px]"
+            className="border mr-[14px] w-[405px] h-[51px] p-5 border-[#6C7177] rounded-[4px] focus:ring-1 focus:ring-[#004c3f] focus:border-[#004c3f]"
             placeholder="Insira seu email"
             type="email"
             name="Email"
             id="email"
           />
-          <button className="w-[202px] h-[53px] ml-[14px] bg-[#028060] hover:bg-[#004C3F] transition-colors rounded-[4px] text-white font-bold text-base">
-            Crie sua loja grátis!
-          </button>
+          <ShopifyButton width="w-[201px]" height="h-[52px]" />
         </form>
         <p className="text-xs text-[#6C717B] max-w-[622px] mt-6 leading-5">
           Experimente a Shopify gratuitamente por 14 dias, sem precisar fornecer

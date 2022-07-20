@@ -1,0 +1,21 @@
+import { Meta, ArgsTable, Canvas, Story } from "@storybook/addon-docs";
+import { ShopifyButton } from "./";
+
+<Meta title="components/Button" />
+
+# ShopifyButton
+
+### Link utilizado em alguns locais da pg mudando apenas width e height
+
+<ArgsTable of={ShopifyButton} />
+
+<Canvas>
+  <Story
+    name="ShopifyButton Component"
+    args={{
+      ...ShopifyButton.defaultProps,
+    }}
+  >
+    {(args) => <ShopifyButton {...args} />}
+  </Story>
+</Canvas>

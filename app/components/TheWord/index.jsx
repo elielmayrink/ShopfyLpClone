@@ -17,7 +17,7 @@ export function TheWord() {
       </div>
       <div className="relative">
         <img className="m-auto mt-28 mb-10" src={globo} alt="" />
-        <button className="absolute bottom-4 left-32">
+        <button className="absolute bottom-4 left-32 hover:scale-110 transition-all">
           <Play color="#028060" weight="bold" size={30} />
         </button>
       </div>

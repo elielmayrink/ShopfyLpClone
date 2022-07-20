@@ -1,4 +1,5 @@
 import { ArrowUp } from "phosphor-react";
+import { ShopifyButton } from "../ShopifyButton";
 export function TheJourney() {
   return (
     <section className="w-full max-w-[1600px] m-auto pt-24 pb-32 relative">
@@ -10,12 +11,10 @@ export function TheJourney() {
           Experimente a Shopify gratuitamente e explore todas as ferramentas e
           serviços necessários para começar, gerenciar e expandir o seu negócio.
         </p>
-        <button className="w-[181px] h-[44px] bg-[#028060] hover:bg-[#004C3F] transition-colors rounded-[4px] text-white font-bold text-base">
-          Crie sua loja grátis
-        </button>
+        <ShopifyButton width="w-[201px]" height="h-[53px]" />
       </div>
       <a
-        href="#"
+        href="/"
         className={`text-base text-[#028060] font-bold flex items-center space-x-1 group transition-all absolute bottom-8 right-14`}
       >
         <span>Voltar ao topo</span>{" "}
