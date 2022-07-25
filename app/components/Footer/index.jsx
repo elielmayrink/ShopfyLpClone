@@ -46,13 +46,13 @@ export function Footer() {
     PinterestLogo,
   ];
   return (
-    <footer className="bg-[#002E25] w-full max-w-[1600px] m-auto text-[#B6BABF] py-8 divide-y">
-      <div className="divide-y px-[100px]">
-        <div className="flex space-x-5 mb-7">
-          <p>Sobre</p>
-          <p>Mapa do site</p>
-        </div>
-        <div className="flex mb-6">
+    <footer className="bg-[#002E25] w-full max-w-[1600px] m-auto text-[#B6BABF] py-8">
+      <div className="flex space-x-5 mb-7 px-[100px]">
+        <p>Sobre</p>
+        <p>Mapa do site</p>
+      </div>
+      <div className="mb-6 px-[100px]">
+        <div className="flex border-t border-t-[#1A3F37]">
           <div className="mt-5">
             <p className="text-sm font-extrabold">E-COMMERCER</p>
             <div className="grid grid-cols-3 gap-12 ">
@@ -113,7 +113,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between mb-4 px-[100px]">
+      <div className="flex justify-between mb-4 px-[100px] border-t border-t-[#1A3F37]">
         <div className="flex mt-8 space-x-5 items-center">
           {socialMidiasIcons.map((Icon, index) => (
             <Icon size={25} weight="bold" key={index} />
