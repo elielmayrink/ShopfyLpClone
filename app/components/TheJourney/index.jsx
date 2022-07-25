@@ -2,7 +2,7 @@ import { ArrowUp } from "phosphor-react";
 import { ShopifyButton } from "../ShopifyButton";
 export function TheJourney() {
   return (
-    <section className="w-full max-w-[1600px] m-auto pt-24 pb-32 relative">
+    <section className="w-full max-w-[1600px] m-auto pt-24 pb-[150px] relative">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-[30px] leading-10 text-[#212326] max-w-[815px] text-center">
           Comece a sua jornada no mundo dos negócios com a Shopify
