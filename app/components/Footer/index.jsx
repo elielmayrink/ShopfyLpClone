@@ -54,7 +54,7 @@ export function Footer() {
       <div className="mb-6 px-[100px]">
         <div className="flex border-t border-t-[#1A3F37]">
           <div className="mt-5">
-            <p className="text-sm font-extrabold">E-COMMERCER</p>
+            <p className="text-sm text-white font-extrabold">E-COMMERCER</p>
             <div className="grid grid-cols-3 gap-12 ">
               <div className="flex flex-col">
                 {links.ecommerce.firstColumn.map((link, index) => {
@@ -98,7 +98,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-5 ml-9">
-            <p className="text-sm font-extrabold">SHOPIFY</p>
+            <p className="text-sm font-extrabold text-white">SHOPIFY</p>
             <div>
               {links.shopify.map((link, index) => (
                 <a
