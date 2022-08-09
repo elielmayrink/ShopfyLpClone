@@ -1,4 +1,4 @@
-# Welcome to Remix!
+# Clonando a lp da shopify
 
 - [Remix Docs](https://remix.run/docs)
 
