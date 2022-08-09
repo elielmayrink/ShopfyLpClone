@@ -1,6 +1,6 @@
 # Clonando a lp da shopify
 
-- [Remix Docs](https://remix.run/docs)
+- [Site Original]([https://remix.run/docs](https://www.shopify.com.br/))
 
 ## Development
 
